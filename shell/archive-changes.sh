@@ -1,0 +1,1 @@
+git archive -o ./patch.zip $1 $(git diff --name-only $2 $1)

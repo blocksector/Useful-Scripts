@@ -24,3 +24,14 @@ Under [MIT License](LICENSE)
 ```shell
 $ sh verify.sh [file-fullpath] [md5-hash-from-provider]
 ```
+
+
+### Archive Changes [Mac Tested]
+
+[Archive Changes](shell/verify.sh) of your project creating a patch in zip format containing modified files between the given commit id.
+
+*dependencies: git and a zip program*
+
+```shell
+$ sh archive-changes.sh [commit-id-1] [commit-id-2]
+```
