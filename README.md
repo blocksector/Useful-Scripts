@@ -11,3 +11,16 @@ Use it at your own risk, this is tested on my machine only i will not be liable 
 I dont own any softwares, i just automate my work and just returning the favor. You have the right to use anything in this repository just dont own it, alright?
 
 Under [MIT License](LICENSE)
+
+
+# Scripts
+
+## Shell Scripts
+
+### MD5 Hash Validator [Mac Tested]
+
+[MD5 hash validator](shell/verify.sh) for downloaded file. just pass the file fullpath and the md5 provided by the provider
+
+```shell
+$ sh verify.sh [file-fullpath] [md5-hash-from-provider]
+```
